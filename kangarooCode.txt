@@ -1,0 +1,26 @@
+int a;
+int b;
+a = 3;
+b = a + 1;
+
+class A {
+        String name = "sara";
+        class Nested {
+            if (b == 4) a = 2; endif
+            if (a == 3)  
+                a = a + 1; 
+                b = b + 6;
+                endif 
+            print a;
+            print b;
+            print name;
+            {{{{print "Last Block"; }}}}
+        }
+}
+
+class B {
+        int x;   
+        int getDubX() {
+                return 2*x;
+        }
+}
